@@ -74,7 +74,7 @@ footer a {
     background-position: center;
     position: relative;
 }
-
+/* Hero Style End */
 
 /* Hero-form Style */
 .hero-form {
@@ -92,7 +92,7 @@ section {
     padding: 60px;
 }
 
-h3 {
+.hero-from h3 {
     font-size: 24px;
     margin: 0;
 }
@@ -123,4 +123,3 @@ button {
     font-size: 16px;
     border: none;
 }
-/* Hero Style End */
