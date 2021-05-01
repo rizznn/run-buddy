@@ -48,7 +48,8 @@ header nav ul li a {
 }
 
 footer {
-    background: #fce138;
+    background: #024e76;
+    color: #fce138;
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -57,7 +58,7 @@ footer {
 }
 
 footer h2 {
-    color: #024e76;
+    color: #fce138;
     font-size: 30px;
     margin: 0;
 }
@@ -68,7 +69,7 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
+    color: #fce138;
 }
 
 
@@ -264,13 +265,36 @@ button {
 
 
 /* reach out contact section*/
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
     color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .contact {
@@ -282,16 +306,10 @@ button {
 }
 
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -303,7 +321,7 @@ button {
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
 
@@ -314,6 +332,15 @@ button {
 /* REACH OUT STYLES END */
 
 /* utility classes styles */
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
+}
+
 .primary-border {
     border-color: #fce138;
 }
