@@ -157,10 +157,6 @@ button {
     text-align: center;
 }
 
-/* what you do */
-.steps { 
-    background: #fce138;
-}
 
 /* combined css for titles */
 .section-title {
@@ -173,38 +169,60 @@ button {
     width: 50%;
 }
 
-.primary-border {
-    border-color: #fce138;
+/* what you do */
+.steps { 
+    background: #fce138;
 }
 
-.secondary-border {
-    border-color: #39a6b2;
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps div{
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 15px 0;
-}
-
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-.steps span {
-    font-size: 38px;
-}
-
+/* trainers style */
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -293,6 +311,14 @@ button {
 /* REACH OUT STYLES END */
 
 /* utility classes styles */
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
 .text-left {
     text-align: left;
 }
